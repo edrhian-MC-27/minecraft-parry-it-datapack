@@ -9,6 +9,9 @@ scoreboard objectives add .parry_shield_projectile_motion_z dummy
 
 scoreboard objectives add .parry_shield_creeper_timer dummy
 
+scoreboard objectives add .parry_shield_fall_distance dummy
+scoreboard objectives add .parry_shield_fall_protection_time_left dummy
+
 scoreboard objectives add .parry_shield_consts dummy
 
 scoreboard players set #minus_1 .parry_shield_consts -1
