@@ -1,3 +1,5 @@
+execute as @p run function parry_it:player/reset_timers
+
 damage @s 1000 player_attack by @p
 playsound block.anvil.break player @a ~ ~ ~ 1 1
 

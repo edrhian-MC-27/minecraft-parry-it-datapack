@@ -8,4 +8,4 @@ execute as @e[type=#parry_it:deflectable,distance=..1,limit=1,sort=nearest] if p
 execute as @e[type=#parry_it:absorbable,distance=..1,limit=1,sort=nearest] if predicate parry_it:entity_on_ground run function parry_it:marker/absorb
 execute as @e[type=#parry_it:stopable,distance=..1,limit=1,sort=nearest] if predicate parry_it:entity_on_ground run function parry_it:marker/stop
 
-execute if score @s .parry_shield_marker_age matches 70 run function parry_it:marker/kill
+execute if score @s .parry_shield_marker_age matches 7 run function parry_it:marker/kill
