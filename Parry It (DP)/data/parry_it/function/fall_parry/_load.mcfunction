@@ -1,0 +1,1 @@
+scoreboard objectives add .parry_shield_fall_distance dummy
