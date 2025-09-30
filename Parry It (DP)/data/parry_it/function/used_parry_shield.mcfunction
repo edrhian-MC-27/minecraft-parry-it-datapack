@@ -7,6 +7,5 @@ execute if score @s .parry_shield_use_delay matches 0.. run return fail
 scoreboard players set @s .parry_shield_protection_time_left 7
 scoreboard players set @s .parry_shield_use_delay 10
 
-execute at @s anchored eyes positioned ^ ^ ^1 run summon marker ~ ~ ~ {Tags:["parry_shield_marker"]}
-execute anchored eyes positioned ^ ^ ^1 as @e[type=marker,tag=parry_shield_marker,limit=1,sort=nearest] facing entity @p[tag=parry_shield_current_execution] eyes run tp @s ~ ~ ~ ~ ~
+execute at @s run summon marker ~ ~ ~ {Tags:["parry_shield_marker"]}
 tag @s remove parry_shield_current_execution

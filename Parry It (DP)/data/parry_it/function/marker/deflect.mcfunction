@@ -1,4 +1,4 @@
-execute positioned ^ ^ ^1 as @p run function parry_it:player/reset_timers
+execute positioned ^ ^ ^ as @p run function parry_it:player/reset_timers
 
 function parry_it:marker/modify_motion
 
