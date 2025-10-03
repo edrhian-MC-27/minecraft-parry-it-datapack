@@ -14,6 +14,6 @@
     }
   },
   "rewards": {
-    "function": "parry_it:used_parry_shield"
+    "function": "parry_it:advancement/used_parry_shield"
   }
 }
