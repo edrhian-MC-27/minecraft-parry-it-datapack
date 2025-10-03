@@ -3,7 +3,6 @@
     "parry_it:_load",
     "parry_it:marker/_load",
     "parry_it:player/_load",
-    "parry_it:fall_parry/_load",
     "parry_it:creeper_parry/_load"
   ]
 }

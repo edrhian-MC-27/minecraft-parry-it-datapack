@@ -14,8 +14,6 @@ scoreboard players set @s .parry_shield_use_delay 20
 
 execute at @s run summon marker ~ ~ ~ {Tags:["parry_shield_marker"]}
 
-execute at @s if predicate parry_it:player_prepare_fall_parry run function parry_it:fall_parry/parry_fall
-
 # Executes parry creeper on a near creeper that is near to explode
 execute as @e[type=creeper,scores={.parry_shield_creeper_timer=25..35},limit=1,sort=nearest] at @s \
     run function parry_it:creeper_parry/parry_creeper
