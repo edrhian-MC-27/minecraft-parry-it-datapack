@@ -1,3 +1,9 @@
+#> Parry It Player On Fail
+# Description:
+#   - Handles the consequences for a player who fails to parry an attack
+# Callers:
+#   - parry_it:marker/on_fail; as the player associated with the failed parry marker
+
 scoreboard players set @s .parry_shield_damage_resisted 0
 scoreboard players set @s .parry_shield_use_delay 20
 

@@ -1,3 +1,9 @@
+#> Projectile parry step
+# Description:
+#   - Detects and handles projectiles near the parry marker, allowing for deflection, absorption, or stopping of the projectile
+# Callers:
+#   - parry_it:marker/_tick; as the parry marker
+
 execute as @a at @s anchored eyes run tp @e[tag=parry_shield_marker,limit=1,sort=nearest,distance=..3] ~ ~1 ~
 
 particle dust{color:[1.000,0.000,0.000],scale:0.5} ~ ~ ~ 0 0 0 1 0 normal

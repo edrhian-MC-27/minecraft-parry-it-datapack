@@ -1,3 +1,8 @@
+#> Parry Fall
+# Description:
+#   - Grants resistance effect if the player is falling from a high distance and is about to hit the ground
+# Callers:
+#   - parry_it:used_parry_shield
 execute store result score @s .parry_shield_fall_distance run data get entity @s fall_distance 1
 
 execute if score @s .parry_shield_fall_distance matches 3.. \

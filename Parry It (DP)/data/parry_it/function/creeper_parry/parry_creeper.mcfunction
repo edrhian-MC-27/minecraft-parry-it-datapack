@@ -1,3 +1,8 @@
+#> Parry Creeper
+# Description:
+#   - Kills instantly the current creeper
+# Callers:
+#   - parry_it:used_parry_shield
 execute as @p run function parry_it:player/reset_timers
 
 damage @s 1000 player_attack by @p

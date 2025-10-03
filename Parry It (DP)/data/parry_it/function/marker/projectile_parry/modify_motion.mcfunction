@@ -1,3 +1,9 @@
+#> Motion modification for projectile parry
+# Description:
+#   - Reverses the motion of the projectile to simulate a deflection
+# Callers:
+#   - parry_it:marker/projectile_parry/deflect; as the projectile
+
 execute store result score @s .parry_shield_projectile_motion_x run data get entity @s Motion[0] 1000
 execute store result score @s .parry_shield_projectile_motion_y run data get entity @s Motion[1] 1000
 execute store result score @s .parry_shield_projectile_motion_z run data get entity @s Motion[2] 1000

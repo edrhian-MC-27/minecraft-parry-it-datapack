@@ -1,3 +1,9 @@
+#> Deflect Projectile
+# Description:
+#   - Deflects a projectile that is near the parry marker
+# Callers:
+#   - parry_it:marker/projectile_parry/_step; as the projectile
+
 execute positioned ^ ^ ^ as @p run function parry_it:player/reset_timers
 
 function parry_it:marker/projectile_parry/modify_motion
