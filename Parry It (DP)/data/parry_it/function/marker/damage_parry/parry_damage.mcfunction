@@ -7,8 +7,11 @@
 function parry_it:player/reset_timers
 execute as @e[tag=parry_shield_marker,limit=1,sort=nearest] at @s run kill @s
 
-effect clear @s minecraft:resistance
-effect give @s minecraft:strength 3 1 false
+execute as @s at @s anchored eyes positioned ^ ^0.75 ^0.75 run function parry_it:marker/damage_parry/particle
+
 playsound minecraft:entity.player.levelup master @s ~ ~ ~ 0.5 2
 
-tellraw @s {"text":"You parried the attack!","color":"gold","bold":true}
+effect clear @s minecraft:resistance
+effect give @s minecraft:strength 3 1 false
+
+title @s actionbar {"text":"Parry Successful!","color":"gold","bold":true}

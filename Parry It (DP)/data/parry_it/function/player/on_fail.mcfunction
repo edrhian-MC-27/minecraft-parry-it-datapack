@@ -11,4 +11,4 @@ effect clear @s minecraft:resistance
 effect clear @s minecraft:strength
 effect give @s minecraft:weakness 5 1 false
 effect give @s minecraft:slowness 5 1 false
-tellraw @s {"text":"You failed to parry the attack.","color":"red","bold":true}
+title @s actionbar {"text":"Parry Failed!","color":"red","bold":true}
