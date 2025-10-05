@@ -1,7 +1,6 @@
 {
   "values": [
     "parry_it:player/_tick",
-    "parry_it:fall_parry/_tick",
     "parry_it:creeper_parry/_tick",
     "parry_it:marker/_tick"
   ]
