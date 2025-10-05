@@ -1,17 +1,17 @@
 {
-	"display": {
-		"icon": {
-			"id": "minecraft:command_block"
-		},
-		"title": "datapack title",
-		"description": "datapack description",
-		"show_toast": false,
-		"announce_to_chat": false
-	},
-	"parent": "edrhian:root",
-	"criteria": {
-		"Install \"[Insert Datapack Name Here]\" datapack": {
-			"trigger": "minecraft:tick"
-		}
-	}
+  "display": {
+    "icon": {
+      "id": "minecraft:shield"
+    },
+    "title": "Parry It!",
+    "description": "I'm not gonna sugarcoat it",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "parent": "edrhian:root",
+  "criteria": {
+    "Install \"Parry It!\" datapack": {
+      "trigger": "minecraft:tick"
+    }
+  }
 }
