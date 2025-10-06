@@ -8,6 +8,8 @@ execute positioned ^ ^ ^ as @p run effect give @s speed 2 1 true
 execute positioned ^ ^ ^ as @p run effect give @s strength 2 2 true
 execute positioned ^ ^ ^ as @p run function parry_it:player/reset_timers
 
+execute on origin run function parry_it:marker/projectile_parry/victim_effects
+
 execute as @s at @s facing entity @p eyes run function parry_it:marker/projectile_parry/particle
 
 playsound entity.enderman.teleport player @a ~ ~ ~ 1 2
