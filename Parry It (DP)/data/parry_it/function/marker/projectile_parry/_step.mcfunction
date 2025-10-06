@@ -1,0 +1,11 @@
+#> Projectile parry step
+# Description:
+#   - Detects and handles projectiles near the parry marker, allowing for deflection, absorption, or stopping of the projectile
+# Callers:
+#   - parry_it:marker/_tick; as the parry marker
+
+execute as @a at @s anchored eyes run tp @e[tag=parry_shield_marker,limit=1,sort=nearest,distance=..3] ~ ~1 ~
+
+execute as @e[type=#parry_it:deflectable,distance=..2.5,limit=1,sort=nearest] if predicate parry_it:entity_on_ground run function parry_it:marker/projectile_parry/deflect
+execute as @e[type=#parry_it:absorbable,distance=..2.5,limit=1,sort=nearest] if predicate parry_it:entity_on_ground run function parry_it:marker/projectile_parry/absorb
+execute as @e[type=#parry_it:stopable,distance=..2.5,limit=1,sort=nearest] if predicate parry_it:entity_on_ground run function parry_it:marker/projectile_parry/stop

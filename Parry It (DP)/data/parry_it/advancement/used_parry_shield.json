@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "used_yeet_tool": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:custom_data": {
+              "parry_shield": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "parry_it:advancement/used_parry_shield"
+  }
+}
