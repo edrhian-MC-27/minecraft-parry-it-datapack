@@ -8,5 +8,5 @@ scoreboard players add @s .parry_shield_marker_age 1
 
 # execute positioned as @p run function parry_it:marker/particle
 
-execute if score @s .parry_shield_marker_age matches 7.. run function parry_it:marker/on_fail
+execute if score @s .parry_shield_marker_age >= #parry_marker_lifetime .parry_shield_consts run function parry_it:marker/on_fail
 
