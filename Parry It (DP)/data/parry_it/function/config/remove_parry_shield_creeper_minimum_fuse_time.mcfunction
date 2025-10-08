@@ -1,0 +1,2 @@
+scoreboard players remove #parry_shield_creeper_minimum_fuse_time .parry_shield_consts 1
+function parry_it:_sudo/open_config
