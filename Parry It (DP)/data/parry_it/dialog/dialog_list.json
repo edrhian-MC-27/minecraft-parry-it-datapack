@@ -1,0 +1,163 @@
+{
+  "type": "minecraft:dialog_list",
+  "title": "Parry It Datapack Configuration",
+  "inputs": [],
+  "can_close_with_escape": true,
+  "pause": true,
+  "columns": 1,
+  "button_width": 250,
+  "dialogs": [
+    {
+      "type": "minecraft:confirmation",
+      "title": "Parry Window Configuration",
+      "body": {
+        "type": "minecraft:item",
+        "item": {
+          "id": "glass"
+        }
+      },
+      "inputs": [
+        {
+          "type": "minecraft:number_range",
+          "key": "parry_marker_lifetime",
+          "label": "Parry window",
+          "start": 1,
+          "end": 100,
+          "step": 1,
+          "initial": 7
+        }
+      ],
+      "can_close_with_escape": true,
+      "pause": true,
+      "after_action": "close",
+      "yes": {
+        "label": "Apply Changes",
+        "action": {
+          "type": "minecraft:dynamic/run_command",
+          "template": "scoreboard players set #parry_marker_lifetime .parry_shield_consts $(parry_marker_lifetime)"
+        }
+      },
+      "no": {
+        "label": "Discard Changes",
+        "action": {
+          "type": "minecraft:show_dialog",
+          "dialog": "parry_it:dialog_list"
+        }
+      }
+    },
+    {
+      "type": "minecraft:confirmation",
+      "title": "Parry Cooldown after Success Configuration",
+      "body": {
+        "type": "minecraft:item",
+        "item": {
+          "id": "minecraft:emerald_block"
+        }
+      },
+      "inputs": [
+        {
+          "type": "minecraft:number_range",
+          "key": "parry_shield_use_delay_success",
+          "label": "Cooldown after success",
+          "start": -1,
+          "end": 1000,
+          "step": 1,
+          "initial": 2
+        }
+      ],
+      "can_close_with_escape": true,
+      "pause": true,
+      "after_action": "close",
+      "yes": {
+        "label": "Apply Changes",
+        "action": {
+          "type": "minecraft:dynamic/run_command",
+          "template": "scoreboard players set #parry_shield_use_delay_success .parry_shield_consts $(parry_shield_use_delay_success)"
+        }
+      },
+      "no": {
+        "label": "Discard Changes",
+        "action": {
+          "type": "minecraft:show_dialog",
+          "dialog": "parry_it:dialog_list"
+        }
+      }
+    },
+    {
+      "type": "minecraft:confirmation",
+      "title": "Parry Cooldown after Fail Configuration",
+      "body": {
+        "type": "minecraft:item",
+        "item": {
+          "id": "minecraft:redstone_block"
+        }
+      },
+      "inputs": [
+        {
+          "type": "minecraft:number_range",
+          "key": "parry_shield_use_delay_fail",
+          "label": "Cooldown after fail",
+          "start": -1,
+          "end": 1000,
+          "step": 1,
+          "initial": 40
+        }
+      ],
+      "can_close_with_escape": true,
+      "pause": true,
+      "after_action": "close",
+      "yes": {
+        "label": "Apply Changes",
+        "action": {
+          "type": "minecraft:dynamic/run_command",
+          "template": "scoreboard players set #parry_shield_use_delay_fail .parry_shield_consts $(parry_shield_use_delay_fail)"
+        }
+      },
+      "no": {
+        "label": "Discard Changes",
+        "action": {
+          "type": "minecraft:show_dialog",
+          "dialog": "parry_it:dialog_list"
+        }
+      }
+    },
+    {
+      "type": "minecraft:confirmation",
+      "title": "Parry Creeper Minimum Fuse Time",
+      "body": {
+        "type": "minecraft:item",
+        "item": {
+          "id": "minecraft:creeper_head"
+        }
+      },
+      "inputs": [
+        {
+          "type": "minecraft:number_range",
+          "key": "creeper_minimum_fuse_time",
+          "label": "Creeper minimum fuse time",
+          "start": 0,
+          "end": 40,
+          "step": 1,
+          "initial": 25
+        }
+      ],
+      "can_close_with_escape": true,
+      "pause": true,
+      "after_action": "close",
+      "yes": {
+        "label": "Apply Changes",
+        "action": {
+          "type": "minecraft:dynamic/run_command",
+          "template": "scoreboard players set #creeper_minimum_fuse_time .parry_shield_consts $(creeper_minimum_fuse_time)"
+        }
+      },
+      "no": {
+        "label": "Discard Changes",
+        "action": {
+          "type": "minecraft:show_dialog",
+          "dialog": "parry_it:dialog_list"
+        }
+      }
+    }
+  ]
+}
