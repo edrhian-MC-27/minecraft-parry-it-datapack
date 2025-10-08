@@ -11,6 +11,7 @@ scoreboard players set #parry_marker_lifetime .parry_shield_consts 7
 scoreboard players set #parry_shield_use_delay_fail .parry_shield_consts 40
 scoreboard players operation #parry_shield_fail_effects_time .parry_shield_consts = #parry_shield_use_delay_fail .parry_shield_consts 
 scoreboard players operation #parry_shield_fail_effects_time .parry_shield_consts -= #one_second .parry_shield_consts
+scoreboard players set #parry_shield_creeper_minimum_fuse_time .parry_shield_consts 25
 
 scoreboard players set #parry_shield_use_delay_success .parry_shield_consts 2
 

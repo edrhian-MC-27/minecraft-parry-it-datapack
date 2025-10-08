@@ -17,7 +17,8 @@ scoreboard players set @s .parry_shield_use_delay 1000
 execute at @s run summon marker ~ ~ ~ {Tags:["parry_shield_marker"]}
 
 # Executes parry creeper on a near creeper that is near to explode
-execute as @e[type=creeper,scores={.parry_shield_creeper_timer=25..35},limit=1,sort=nearest] at @s \
+execute as @e[type=creeper,scores={.parry_shield_creeper_timer=0..},limit=1,sort=nearest] at @s \
+    if score @s .parry_shield_creeper_timer >= #parry_shield_creeper_minimum_fuse_time .parry_shield_consts \
     run function parry_it:creeper_parry/parry_creeper
 
 tag @s remove parry_shield_current_execution
