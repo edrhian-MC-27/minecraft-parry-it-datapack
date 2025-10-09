@@ -6,7 +6,5 @@
 
 scoreboard players add @s .parry_it_marker_age 1
 
-# execute positioned as @p run function parry_it:marker/particle
-
 execute if score @s .parry_it_marker_age >= #marker_lifetime .parry_it_values run function parry_it:marker/on_fail
 
