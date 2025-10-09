@@ -11,6 +11,6 @@ playsound minecraft:entity.villager.hurt master @s ~ ~ ~ 1 1.5
 effect clear @s minecraft:resistance
 effect clear @s minecraft:strength
 
-scoreboard players operation @s .parry_it_fail_effects_timer = #fail_effects_duration .parry_it_values
+scoreboard players operation @s .parry_it_fail_effects_timer = #use_cooldown_fail .parry_it_values
 
 title @s actionbar {"text":"Parry Failed!","color":"red","bold":true}
