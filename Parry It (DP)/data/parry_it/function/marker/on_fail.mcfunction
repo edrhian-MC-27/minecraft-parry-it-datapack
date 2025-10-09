@@ -4,5 +4,5 @@
 # Callers:
 #   - parry_it:marker/_step; when the marker age exceeds the limit
 
-execute positioned ~ ~-1 ~ as @p at @s run function parry_it:player/on_fail
+execute positioned ~ ~-1 ~ as @p at @s run function parry_it:player/fail/on_fail
 kill @s
