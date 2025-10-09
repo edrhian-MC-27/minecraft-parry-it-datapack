@@ -25,7 +25,7 @@ This datapack features a new type of shield that allows the player to parry proj
 
 - If you perform a succesful parry, it will reset your cooldown to 2 ticks
 
-Depending on what do you parry, it will give you different effects
+- Depending on what do you parry, it will give you different effects
 
 ### Damage Parry
 
@@ -49,11 +49,13 @@ There are 3 types of projectiles, each one has a different effect when parried
 
 ## Admin commands
 
-To give yourself a parry shield use the `/function parry_it:_sudo/give_shield` command
+- To give yourself a parry shield use the `/function parry_it:_sudo/give_shield` command
 
-To change the datapack configuration use the `/function parry_it:_sudo/open_config`, this will open a dialog and it will print out the current configuration in the chat
+- To change the datapack configuration use the `/function parry_it:_sudo/open_config`, this will open a dialog and it will print out the current configuration in the chat
 
 ### Configuration
+
+![Config UI image](docs/images/config_dialog.png)
 
 - `/function parry_it:_sudo/reset` sets the configuration to the default values
 
@@ -68,6 +70,8 @@ There are 4 types of values that can be modified inside the configuration dialog
 - Parry Cooldown on Fail (40 ticks by default): It's value of the cooldown after a failed parry and the duration of the negative effects, a higher value punishes more the player
 
 - Parry Creeper Minimum Fuse Time (25 ticks by default): It's the creeper fuse time required to parry a creeper successfully, a lower value allows to parry creeper earlier and less risky
+
+> It's highly recommended to use a higher parry window and lower creeper minimum fuse time in servers, lag can make this datapack very inconsistent
 
 ## Demonstration
 
