@@ -4,9 +4,9 @@
 # Callers:
 #   - parry_it:marker/_tick; as each parry marker
 
-scoreboard players add @s .parry_shield_marker_age 1
+scoreboard players add @s .parry_it_marker_age 1
 
 # execute positioned as @p run function parry_it:marker/particle
 
-execute if score @s .parry_shield_marker_age >= #parry_marker_lifetime .parry_shield_consts run function parry_it:marker/on_fail
+execute if score @s .parry_it_marker_age >= #marker_lifetime .parry_it_values run function parry_it:marker/on_fail
 

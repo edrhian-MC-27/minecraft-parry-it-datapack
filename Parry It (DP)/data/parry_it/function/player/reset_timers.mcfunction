@@ -8,5 +8,5 @@
 #   - parry_it:marker/projectile_parry/absorb; as the player
 #   - parry_it:marker/projectile_parry/deflect; as the player
 
-scoreboard players operation @s .parry_shield_use_delay = #parry_shield_use_delay_success .parry_shield_consts
-scoreboard players set @s .parry_shield_damage_resisted 0
+scoreboard players operation @s .parry_it_shield_use_delay = #use_cooldown_success .parry_it_values
+scoreboard players set @s .parry_it_dmg_resisted 0

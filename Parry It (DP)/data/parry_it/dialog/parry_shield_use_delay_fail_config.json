@@ -25,7 +25,7 @@
     "label": "Apply Changes",
     "action": {
       "type": "minecraft:dynamic/run_command",
-      "template": "scoreboard players set #parry_shield_use_delay_fail .parry_shield_consts $(parry_shield_use_delay_fail)"
+      "template": "scoreboard players set #use_cooldown_fail .parry_it_values $(parry_shield_use_delay_fail)"
     }
   },
   "no": {
