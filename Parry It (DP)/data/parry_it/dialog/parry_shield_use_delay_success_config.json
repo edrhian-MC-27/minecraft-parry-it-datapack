@@ -1,6 +1,6 @@
 {
   "type": "minecraft:confirmation",
-  "title": "Parry It Datapack Configuration",
+  "title": "Parry Cooldown on Success Configuration",
   "body": {
     "type": "minecraft:item",
     "item": {

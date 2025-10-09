@@ -1,6 +1,6 @@
 {
   "type": "minecraft:confirmation",
-  "title": "Parry It Datapack Configuration",
+  "title": "Parry Marker Configuration",
   "body": {
     "type": "minecraft:item",
     "item": {

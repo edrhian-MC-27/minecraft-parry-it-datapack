@@ -1,6 +1,6 @@
 {
   "type": "minecraft:confirmation",
-  "title": "Parry It Datapack Configuration",
+  "title": "Parry Creeper Configuration",
   "body": {
     "type": "minecraft:item",
     "item": {
@@ -25,7 +25,7 @@
     "label": "Apply Changes",
     "action": {
       "type": "minecraft:dynamic/run_command",
-      "template": "scoreboard players set #creeper_minimum_fuse_time .parry_shield_consts $(creeper_minimum_fuse_time)"
+      "template": "scoreboard players set #parry_shield_creeper_minimum_fuse_time .parry_shield_consts $(creeper_minimum_fuse_time)"
     }
   },
   "no": {
