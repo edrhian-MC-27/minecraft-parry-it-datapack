@@ -1,3 +1,9 @@
+#> Parry It Fail Effects
+# Description:
+#   - Handles the negative effects applied to a player when a parry fails
+# Callers:
+#   - parry_it:marker/on_fail; by the player who failed the parry
+
 scoreboard players remove @s .parry_it_fail_effects_timer 1
 
 effect give @s minecraft:weakness 1 1 false
