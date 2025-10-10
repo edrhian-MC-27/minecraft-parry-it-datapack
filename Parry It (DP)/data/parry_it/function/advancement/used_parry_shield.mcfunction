@@ -7,6 +7,7 @@
 tag @s add parry_shield_current_execution
 advancement revoke @s only parry_it:used_parry_shield
 
+execute if score @s .parry_it_eating_safe_timer matches 0.. run return run function parry_it:player/on_use_eating
 execute if score @s .parry_it_shield_use_delay matches 0.. run return run function parry_it:player/on_use_cooldown
 
 # playsound block.note_block.hat player @s ~ ~ ~ 1 1.5

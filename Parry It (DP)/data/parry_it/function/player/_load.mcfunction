@@ -6,6 +6,7 @@
 
 scoreboard objectives add .parry_it_shield_use_delay dummy
 scoreboard objectives add .parry_it_fail_effects_timer dummy
+scoreboard objectives add .parry_it_eating_safe_timer dummy
 
 scoreboard players set @a .parry_it_shield_use_delay -1
 scoreboard players set @a .parry_it_fail_effects_timer -1

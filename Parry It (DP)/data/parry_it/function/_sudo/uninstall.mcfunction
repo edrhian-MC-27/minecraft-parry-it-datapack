@@ -7,6 +7,7 @@ scoreboard objectives remove .parry_it_dmg_resisted
 scoreboard objectives remove .parry_it_marker_age 
 scoreboard objectives remove .parry_it_shield_use_delay 
 scoreboard objectives remove .parry_it_fail_effects_timer 
+scoreboard objectives remove .parry_it_eating_safe_timer
 
 kill @e[type=marker,tag=parry_shield_marker]
 
