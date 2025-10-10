@@ -7,7 +7,7 @@
 scoreboard players set @s .parry_it_dmg_resisted 0
 scoreboard players operation @s .parry_it_shield_use_delay = #use_cooldown_fail .parry_it_values
 
-playsound minecraft:entity.villager.hurt master @s ~ ~ ~ 1 1.5
+playsound minecraft:item.shield.break player @s ~ ~ ~ 1 1
 effect clear @s minecraft:resistance
 effect clear @s minecraft:strength
 
