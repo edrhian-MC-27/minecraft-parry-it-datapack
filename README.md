@@ -73,7 +73,7 @@ There are 4 types of values that can be modified inside the configuration dialog
 
 > It's highly recommended to use a higher parry window and lower creeper minimum fuse time in servers, lag can make this datapack very inconsistent
 
-## Demonstration
+## Video
 
 ## Compatibility
 
