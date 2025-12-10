@@ -3,7 +3,7 @@
     "description": "Parry projectiles, creepers and damage! - By edrhian",
     "pack_format": 81,
     "min_format": 81,
-    "max_format": 89,
-    "supported_formats": [81, 89]
+    "max_format": 94,
+    "supported_formats": [81, 94]
   }
 }
