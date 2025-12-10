@@ -11,6 +11,6 @@ scoreboard objectives remove .parry_it_eating_safe_timer
 
 kill @e[type=marker,tag=parry_shield_marker]
 
-datapack disable "file/Parry It (DP)"
+datapack disable "file/Parry_It_DP"
 
 reload
