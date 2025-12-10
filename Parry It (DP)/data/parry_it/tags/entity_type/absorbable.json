@@ -1,3 +1,8 @@
 {
-  "values": ["wind_charge", "breeze_wind_charge", "wither_skull"]
+  "values": [
+    "wind_charge",
+    "breeze_wind_charge",
+    "wither_skull",
+    "small_fireball"
+  ]
 }

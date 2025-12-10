@@ -1,3 +1,9 @@
 {
-  "values": ["#arrows", "trident", "splash_potion", "lingering_potion"]
+  "values": [
+    "#arrows",
+    "trident",
+    "splash_potion",
+    "lingering_potion",
+    "firework_rocket"
+  ]
 }
