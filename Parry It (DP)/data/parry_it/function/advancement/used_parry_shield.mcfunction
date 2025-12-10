@@ -13,7 +13,8 @@ execute if score @s .parry_it_shield_use_delay matches 0.. run return run functi
 # playsound block.note_block.hat player @s ~ ~ ~ 1 1.5
 
 # This use delay only prevents the player from double clicking by accident
-scoreboard players set @s .parry_it_shield_use_delay 1000
+# Should be higher, but there's a delay reset problem when playing in multiplayer, so it will be 20 until the problem is resolved
+scoreboard players set @s .parry_it_shield_use_delay 20
 
 execute at @s run summon marker ~ ~ ~ {Tags:["parry_shield_marker"]}
 
