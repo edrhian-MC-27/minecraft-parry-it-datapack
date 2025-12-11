@@ -75,6 +75,10 @@ There are 4 types of values that can be modified inside the configuration dialog
 
 ## Video
 
+[Showcase Video](https://youtu.be/iN_mNzxoTaY)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/iN_mNzxoTaY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ## Compatibility
 
 This datapack has been tested with minecraft +1.21.8
