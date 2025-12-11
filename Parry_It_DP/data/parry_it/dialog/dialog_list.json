@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:dialog_list",
+  "title": "Parry It Datapack Configuration",
+  "inputs": [],
+  "can_close_with_escape": true,
+  "pause": true,
+  "columns": 1,
+  "button_width": 250,
+  "dialogs": [
+    "parry_it:parry_marker_life_time_config",
+    "parry_it:parry_shield_use_delay_success_config",
+    "parry_it:parry_shield_use_delay_fail_config",
+    "parry_it:creeper_minimum_fuse_time_config"
+  ]
+}

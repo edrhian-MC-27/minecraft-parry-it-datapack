@@ -1,0 +1,17 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:shield"
+    },
+    "title": "Parry It!",
+    "description": "I'm not gonna sugarcoat it",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "parent": "edrhian:root",
+  "criteria": {
+    "Install \"Parry It!\" datapack": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

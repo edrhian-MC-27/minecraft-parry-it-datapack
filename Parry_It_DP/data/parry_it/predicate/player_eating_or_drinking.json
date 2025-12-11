@@ -1,0 +1,55 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "type": "minecraft:player",
+    "equipment": {
+      "mainhand": {
+        "items": [
+          "enchanted_golden_apple",
+          "golden_apple",
+          "golden_carrot",
+          "cooked_mutton",
+          "cooked_porkchop",
+          "cooked_salmon",
+          "cooked_beef",
+          "baked_potato",
+          "beetroot",
+          "beetroot_soup",
+          "bread",
+          "carrot",
+          "cooked_chicken",
+          "cooked_cod",
+          "cooked_rabbit",
+          "mushroom_stem",
+          "rabbit_stew",
+          "suspicious_stew",
+          "apple",
+          "chorus_fruit",
+          "dried_kelp",
+          "melon_slice",
+          "poisonous_potato",
+          "potato",
+          "pumpkin_pie",
+          "beef",
+          "chicken",
+          "mutton",
+          "porkchop",
+          "rabbit",
+          "sweet_berries",
+          "cookie",
+          "glow_berries",
+          "honey_bottle",
+          "pufferfish",
+          "cod",
+          "salmon",
+          "rotten_flesh",
+          "spider_eye",
+          "sweet_berries",
+          "tropical_fish",
+          "potion"
+        ]
+      }
+    }
+  }
+}
