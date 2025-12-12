@@ -77,6 +77,10 @@ There are 4 types of values that can be modified inside the configuration dialog
 
 [Showcase Video](https://youtu.be/iN_mNzxoTaY)
 
+## Multiplayer
+
+This feature is still a work in progress, you can parry players' attacks, and the parried player will recieve negative effects. However, there's still some bugs, so don't expect to work consistently.
+
 ## Compatibility
 
 This datapack has been tested with minecraft +1.21.8
