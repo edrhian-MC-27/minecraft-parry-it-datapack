@@ -8,6 +8,8 @@ This datapack features a new type of shield that allows the player to parry proj
 
 ## Installation
 
+You can download the datapack from [Modrinth](https://modrinth.com/project/eUwAn6Ai)
+
 - Place the .zip in your world's datapacks folder
 
 ## Usage
